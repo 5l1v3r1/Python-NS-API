@@ -4,8 +4,8 @@ Wrapper for the NS API written in Python
 ## Installation
 To install the library simply clone the repository and install the dependencies with `pip`.
 
-    git clone git@github.com:Paradoxis/Python-NS-API.git
-    pip install lxml
+    $ git clone git@github.com:Paradoxis/Python-NS-API.git
+    $ pip install lxml
 
 ## Using the library
 To use the library simply import the base class and initialize it using `NS.initialize()`.<br />
