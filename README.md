@@ -4,22 +4,26 @@ Wrapper for the NS API written in Python
 ## Installation
 To install the library simply clone the repository and install the dependencies with `pip`.
 
-    $ git clone git@github.com:Paradoxis/Python-NS-API.git
-    $ pip install lxml
+```shell
+$ git clone git@github.com:Paradoxis/Python-NS-API.git
+$ pip install lxml
+```
 
 ## Using the library
 To use the library simply import the base class and initialize it using `NS.initialize()`.<br />
 API keys must be requested form the official [NS website](http://www.ns.nl/en/travel-information/ns-api).
 
-    # Import library
-    from ns import NS
-    from ns.stations import Stations
+```python
+# Import library
+from ns import NS
+from ns.stations import Stations
     
-    # Initialize the library
-    NS.initialize(username="user@domain.com", password="YOUR-SECRET-API-KEY")
+# Initialize the library
+NS.initialize(username="user@domain.com", password="YOUR-SECRET-API-KEY")
     
-    # Get a list of all stations
-    sations = Stations().get_all()
+# Get a list of all stations
+sations = Stations().get_all()
+```
 
 ## Documentation
 Documentation of the API can be found here:
