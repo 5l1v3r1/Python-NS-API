@@ -44,8 +44,8 @@ class NS:
         :param password: string
         :return: void
         """
-        NS.API_USER = username
-        NS.API_USER = password
+        NS.API_USERNAME = username
+        NS.API_PASSWORD = password
 
 
 class NSException(Exception):
